@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "no-more-stone-tools",
+	"version": "${version}",
+	"name": "No More Stone Pickaxe!",
+	"description": "Removes stone tools and make wooden pickaxe can mine copper ores",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/no-more-stone-tools/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"nmsp.modid.NoMoreStoneTools"
+		]
+	},
+	"mixins": [
+		"no-more-stone-tools.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
