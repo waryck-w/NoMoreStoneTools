@@ -2,7 +2,7 @@
 
 A Fabric mod that removes stone tools and allows wooden pickaxes to mine copper ore, creating a smoother wood-to-copper-to-iron progression.
 
-Because stone tools deserve to be removed—I mean, because that extra step never made much sense.
+Because stone tools deserve to be removed!! YA UNDERSTAND ME?!
 
 ## Features
 
