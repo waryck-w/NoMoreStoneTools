@@ -1,9 +1,38 @@
-# No More Stone Pickaxe!
+# No More Stone Tools
 
-## Setup
+A Fabric mod that removes stone tools and allows wooden pickaxes to mine copper ore, creating a smoother wood-to-copper-to-iron progression.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+Because stone tools deserve to be removed—I mean, because that extra step never made much sense.
+
+## Features
+
+- Removes stone tools from normal progression.
+- Allows wooden pickaxes to harvest copper ore and deepslate copper ore.
+- Encourages players to progress from wooden tools to copper tools and then iron tools.
+
+## Requirements
+
+- Minecraft 26.2
+- Fabric Loader 0.19.3 or newer
+- Fabric API
+- Java 25
+
+## Installation
+
+1. Install Fabric Loader and Fabric API.
+2. Download the mod JAR.
+3. Place the JAR in your Minecraft `mods` folder.
+
+## Building from source
+
+Run:
+
+```bash
+./gradlew clean build
+```
+
+The finished mod JAR will be generated in `build/libs`.
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This project is available under the [MIT License](LICENSE).
